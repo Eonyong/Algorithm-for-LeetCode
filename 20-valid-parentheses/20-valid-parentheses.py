@@ -14,7 +14,4 @@ class Solution:
                 else:
                     return False
         else:
-            if not op:
-                return True
-            else:
-                return False
+            return True if not op else False
